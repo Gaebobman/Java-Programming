@@ -128,7 +128,6 @@ class ParkingLot {
 public class ParkingLotSimulator {
 
 	public static void main(String[] args) {
-		
 		Scanner scanner = new Scanner(System.in);
 		int x, y;
 		String command = "foo";
