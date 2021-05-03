@@ -1,6 +1,7 @@
 package stringTestRRN;
 
 class RRNChecker{
+	
 	boolean verifyLength(String rrn) {
 		int length = rrn.length();
 		if(length == 14) {
