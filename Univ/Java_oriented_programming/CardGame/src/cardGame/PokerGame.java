@@ -13,9 +13,12 @@ public class PokerGame {
 			p1.getCard(deck.deal());
 			p2.getCard(deck.deal());
 		}
-	
+		System.out.println("Player1 : 12171735/이준표");
 		p1.showCard();
+		System.out.println("Player2 : 컴퓨터");
 		p2.showCard();
+		
+		p1.compare(p2);
+		
 	}
-
 }

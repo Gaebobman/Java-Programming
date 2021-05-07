@@ -3,7 +3,8 @@ package cardGame;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class Deck { 	 
+public class Deck {
+
 	private ArrayList <Card> deck = new ArrayList<Card>(); 
 	String [] suit = {"¢¼", "¢Â", "¢¾", "¢À"};
 	String [] number = {"2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"};
