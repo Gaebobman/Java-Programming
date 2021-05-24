@@ -26,7 +26,6 @@ class MyCalculator extends JFrame implements ActionListener {
 		panel.add(square);
 		
 		JButton squareRoot= new JButton("¡î");
-		squareRoot.addActionListener(this);
 		squareRoot.setPreferredSize(new Dimension(100, 50));
 		panel.add(squareRoot);
 		
@@ -91,6 +90,20 @@ class MyCalculator extends JFrame implements ActionListener {
 				arg = Integer.parseInt(txt.getText());
 				float x = 1 / (float)arg;
 				txt.setText("" + x);				
+			}
+		});
+		squareRoot.addActionListener(new ActionListener() {
+	
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				String strArg = txt.getText();
+				if(strArg.equals(""))
+					return;
+				operator = "squareRoot";
+				arg = Integer.parseInt(txt.getText());
+				float x = (float) Math.sqrt(arg);
+				txt.setText("" + x);		
+				
 			}
 		});
 		
