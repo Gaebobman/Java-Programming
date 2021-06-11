@@ -28,6 +28,7 @@ public class FileClassHW {
 	}
 	
 	public static void main(String[] args) {
+		System.out.println("12171735 ¿Ã¡ÿ«•");
 		File f1 = new File("c:\\");		
 		listDirectory(f1); 
 		Scanner scanner = new Scanner(System.in);
