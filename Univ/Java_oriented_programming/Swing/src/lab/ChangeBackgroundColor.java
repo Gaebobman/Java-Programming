@@ -27,8 +27,10 @@ class Chngbck extends JFrame {
 		
 		c.add(p, BorderLayout.NORTH);		
 		c.setBackground(Color.cyan);
+		
 		JPanel p2 = new JPanel();
 		p2.setBackground(Color.RED);
+		
 		c.add(p2, BorderLayout.CENTER);
 		
 		red.addActionListener(new ActionListener() {

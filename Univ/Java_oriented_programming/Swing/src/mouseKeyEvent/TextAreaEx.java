@@ -25,7 +25,7 @@ class TFrame extends JFrame{
 		c.add(tf);
 		c.add(ta);
 		c.add(new JScrollPane(ta2));
-	
+		
 		c.addMouseListener(new MouseAdapter() {
 			public void mouseClicked(MouseEvent e) {
 				int x = e.getX();
